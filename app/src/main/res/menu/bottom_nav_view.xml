@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home"
+        android:enabled="true" />
+
+    <item
+        android:title="Daftar Kuliah"
+        android:id="@+id/daftarKuliah"
+        android:icon="@drawable/ic_baseline_list_alt"
+        android:enabled="true" />
+
+    <item
+        android:title="About Me"
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_person"
+        android:enabled="true" />
+
+</menu>

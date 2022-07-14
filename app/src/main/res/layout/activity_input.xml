@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/txJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_light">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Data Daftar Kuliah"
+            app:titleTextColor="@color/blue_light"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txNamaInput"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nama Matakuliah"
+        app:hintTextColor="@color/blue_light"
+        android:layout_below="@+id/txJudul"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/blue_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edNamaInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:id="@+id/spinnerKelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txNamaInput">
+
+        <TextView
+            android:id="@+id/txKelasMK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas"
+            android:textColor="@color/blue_light"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinKelas"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/txKelasMK"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/box_input" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/spinnerHari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinnerKelas">
+
+        <TextView
+            android:id="@+id/txHariMK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hari"
+            android:textColor="@color/blue_light"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinHari"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/txHariMK"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/box_input" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinnerHari">
+
+        <TextView
+            android:id="@+id/txJamAwalMK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Jam Mulai"
+            android:textColor="@color/blue_light"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnJamAwal"
+            android:layout_width="175dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/txJamAwalMK"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/box_input"
+            android:onClick="timePickerAwal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txJamAkhirMK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jam Selesai"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/btnJamAwal"
+            android:textColor="@color/blue_light"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnJamAkhir"
+            android:layout_width="175dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/txJamAwalMK"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/btnJamAwal"
+            android:background="@drawable/box_input"
+            android:onClick="timePickerAkhir"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePicker"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box_button"
+        android:padding="10dp"
+        android:text="Simpan Data"
+        android:textColor="@color/background"
+        android:textSize="18sp" />
+
+</RelativeLayout>

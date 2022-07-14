@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UAS Mobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="github">GitHub : <a href="https://github.com/Akbarwp">Akbarwp</a></string>
+
+    <string-array name="kelasMK">
+        <item>P1</item>
+        <item>P2</item>
+        <item>Q1</item>
+        <item>Q2</item>
+    </string-array>
+
+</resources>

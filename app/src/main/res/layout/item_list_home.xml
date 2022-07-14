@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_jadwal_kuliah"
+        android:padding="10dp"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/txHari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Hari MK"
+            android:textColor="@color/purple_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txJamAwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/background"
+            android:textSize="16sp"
+            android:layout_marginBottom="7dp"
+            android:text="Jam Awal MK"
+            android:layout_below="@+id/txHari"/>
+        <TextView
+            android:id="@+id/strip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/background"
+            android:textSize="16sp"
+            android:layout_below="@+id/txHari"
+            android:layout_toRightOf="@+id/txJamAwal"/>
+        <TextView
+            android:id="@+id/txJamAkhir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/background"
+            android:textSize="16sp"
+            android:layout_marginBottom="7dp"
+            android:text="Jam Akhir MK"
+            android:layout_below="@+id/txHari"
+            android:layout_toRightOf="@+id/strip"/>
+
+        <TextView
+            android:id="@+id/txNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/background"
+            android:textSize="16sp"
+            android:layout_marginBottom="7dp"
+            android:text="Nama MK"
+            android:layout_below="@+id/txJamAkhir"/>
+
+        <TextView
+            android:id="@+id/txKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txNama"
+            android:text="Kelas MK"
+            android:textColor="@color/purple_light"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

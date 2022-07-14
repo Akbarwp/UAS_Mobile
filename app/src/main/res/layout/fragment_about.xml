@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentAbout"
+    android:background="@color/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgAbout"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/kuliahku"/>
+
+    <TextView
+        android:id="@+id/txNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 20410100057"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/white_custom"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/txNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Akbar Wibowo Putra"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/white_custom"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:id="@+id/txEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : 20410100057@dinamika.ac.id"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/white_custom"
+        android:layout_marginTop="280dp"/>
+
+    <TextView
+        android:id="@+id/txGithub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/github"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/white_custom"
+        android:layout_marginTop="310dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:background="@drawable/box_logout"
+        android:textColor="@color/white_custom"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="340dp"/>
+
+</FrameLayout>

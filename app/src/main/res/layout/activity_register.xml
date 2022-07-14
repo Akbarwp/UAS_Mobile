@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/txJudulRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_light">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Register Akun"
+            app:titleTextColor="@color/blue_light"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txEmailRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        app:hintTextColor="@color/blue_light"
+        app:boxBackgroundColor="@color/background"
+        app:boxStrokeColor="@color/blue_light"
+        android:layout_below="@+id/txJudulRegister"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/blue_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txPasswordRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        app:hintTextColor="@color/blue_light"
+        app:boxBackgroundColor="@color/background"
+        app:boxStrokeColor="@color/blue_light"
+        android:layout_below="@+id/txEmailRegister"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/blue_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txPasswordCheckRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txPasswordRegister"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:hint="Ulangi Password"
+        android:textColorHint="@color/blue_light"
+        app:boxBackgroundColor="@color/background"
+        app:boxStrokeColor="@color/blue_light"
+        app:hintTextColor="@color/blue_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edPasswordCheckRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txNIMRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="NIM"
+        app:hintTextColor="@color/blue_light"
+        app:boxBackgroundColor="@color/background"
+        app:boxStrokeColor="@color/blue_light"
+        android:layout_below="@+id/txPasswordCheckRegister"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/blue_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edNIMRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txNamaRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nama"
+        app:hintTextColor="@color/blue_light"
+        app:boxBackgroundColor="@color/background"
+        app:boxStrokeColor="@color/blue_light"
+        android:layout_below="@+id/txNIMRegister"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/blue_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edNamaRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txGithubRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="GitHub"
+        app:hintTextColor="@color/blue_light"
+        app:boxBackgroundColor="@color/background"
+        app:boxStrokeColor="@color/blue_light"
+        android:layout_below="@+id/txNamaRegister"
+        android:layout_centerInParent="true"
+        android:textColorHint="@color/blue_light">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edGithubRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="33dp"
+        android:src="@drawable/ic_baseline_add"
+        android:background="@color/cyan"
+        android:layout_below="@+id/txGithubRegister"/>
+
+    <Button
+        android:id="@+id/btnTambahRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFoto"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box_button"
+        android:padding="10dp"
+        android:text="Register"
+        android:textColor="@color/background"
+        android:textSize="18sp" />
+
+</RelativeLayout>
