@@ -24,7 +24,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
-        android:hint="USERNAME"
+        android:hint="EMAIL"
         app:hintTextColor="@color/blue_light"
         app:boxBackgroundColor="@color/background"
         app:boxStrokeColor="@color/blue_light"
