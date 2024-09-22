@@ -72,34 +72,27 @@ Follow the steps below to clone and run the project in your local environment:
 
 ## Screenshots
 
-- Login Page
+- ### **Login Page & Register page**
 
-<img src="https://github.com/user-attachments/assets/942e772d-34c5-4121-85b0-834d948b21cf" alt="Halaman Login" width="300" />
+<img src="https://github.com/user-attachments/assets/942e772d-34c5-4121-85b0-834d948b21cf" alt="Halaman Login" width="300" /> &nbsp;&nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/959c72f4-cef5-4534-9325-9214ded952c9" alt="Halaman Register" width="300" />
+<br><br>
 
-- Register page
-
-<img src="https://github.com/user-attachments/assets/959c72f4-cef5-4534-9325-9214ded952c9" alt="Halaman Register" width="300" />
-
-- Today's class schedule page
+- ### **Today's class schedule page**
 
 <img src="https://github.com/user-attachments/assets/52099b7a-c084-41aa-bae8-5ff1175a4586" alt="Halaman Jadwal Kuliah Hari Ini" width="300" />
+<br><br>
 
-- Class schedule page
+- ### **Class schedule page**
 
 <img src="https://github.com/user-attachments/assets/3ab9b664-5e39-41d1-88e1-2a9cd532eaa3" alt="Halaman Daftar Jadwal Kuliah" width="300" />
-
-- Create class schedule page
-
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/user-attachments/assets/c0bea87f-49a6-4af8-804e-ff736f988f9c" alt="Halaman Tambah Daftar Jadwal Kuliah" width="300" />
-
-- Update class schedule page
-
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/user-attachments/assets/203f28c2-5ca7-42ae-8f16-8414ff07869b" alt="Halaman Ubah Daftar Jadwal Kuliah" width="300" />
-
-- Delete class schedule page
-
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/user-attachments/assets/577307b2-f515-4c67-9a6d-6cdfd4b9822c" alt="Halaman Hapus Daftar Jadwal Kuliah" width="300" />
+<br><br>
 
-- About Me Page
+- ### **About Me Page**
 
 <img src="https://github.com/user-attachments/assets/2ac17168-77af-4c8b-8169-ccd6c47eff09" alt="Halaman About Me" width="300" />
